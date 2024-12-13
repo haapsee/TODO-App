@@ -6,7 +6,7 @@
 
 ```mermaid
 graph LR
-A[User opens the app] --> B{User taps "Sign Up" or "Login"}
+A[User opens the app] --> B{User taps Sign Up or Login}
 B --> C{User enters credentials}
 C --> D{User submits the form}
 D --> E{Backend validates credentials}
