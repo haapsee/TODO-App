@@ -37,7 +37,7 @@ G --> H{Frontend displays new task}
 graph LR
 A[User taps on existing task] --> B{Frontend displays edit form}
 B --> C{User edits task details}
-C --> D{User taps "Save"}
+C --> D{User taps 'Save'}
 D --> E{Frontend sends PUT request}
 E --> F{Backend updates task}
 F --> G{Frontend updates task list}
@@ -59,7 +59,7 @@ D --> E{Frontend removes task from list}
 graph LR
 A[User opens the app] --> B{Frontend fetches task list}
 B --> C{Frontend displays task list}
-C --> D{User edits a task (optional)}
+C --> D{User edits a task ?optional?}
 D --> E{Frontend sends update request}
 E --> F{Backend updates task & notifies clients}
 F --> G{Other clients receive updated list}
