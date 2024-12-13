@@ -23,7 +23,7 @@ I --> J{Frontend redirects to main screen}
 ```mermaid
 graph LR
 A[User navigates to task creation] --> B{User enters task details}
-B --> C{User taps \"Create Task\"}
+B --> C{User taps 'Create Task'}
 C --> D{Frontend sends POST request}
 D --> E{Backend validates request}
 E -->|Success| F(Create new task)
