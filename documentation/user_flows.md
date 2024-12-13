@@ -12,7 +12,8 @@ C --> D{User submits the form}
 D --> E{Backend validates credentials}
 E -->|Success| F(Create new user account)
 E -->|Success| G(Authenticate user)
-FG --> H{Backend returns token}
+F --> H{Backend returns token
+G --> H{Backend returns token}
 H --> I{Frontend stores token}
 I --> J{Frontend redirects to main screen}
 ```
